@@ -1,5 +1,5 @@
 # VotingAppUsingAWS-Services
-Vote APP
+Create a Dynamo DB table with candidate attribute.
 Create Lambda Function (NodeJS)
 Create a New Role 
 Which is  in files CastVote.js -> click on test 
