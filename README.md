@@ -4,9 +4,8 @@ Create Lambda Function (NodeJS)
 Create a New Role 
 Which is  in files CastVote.js -> click on test 
 Lamda Code -> CastVote.js
+
 'use strict';
-
-
 console.log('Loading function');
 const doc = require('aws-sdk');
 // const doc = require('dynamodb-doc');
@@ -60,32 +59,14 @@ exports.handler = (event, context, callback) => {
             done(new Error(`Unsupported method "${event.httpMethod}"`));
     }
 };	
+
+
 Test->CastVote.js before moving forward
  
 Copy the CastVote.json integrate with Dynamo DB(ADD Trigger)
-
-
-
-
-
-
-
-
-
-
-
 Api GateWay
- 
- 
-  
 Create post method Add Lambda Function to it.  
 Add the above in content
-
-
-
-
-
-
 
 
 {
