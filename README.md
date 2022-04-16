@@ -1,4 +1,6 @@
 # VotingAppUsingAWS-Services
+![Architecture](https://user-images.githubusercontent.com/74000321/163659559-83b64657-a48b-4622-8faf-1bf36551e268.png)
+
 Create a Dynamo DB table with candidate attribute.
 Create Lambda Function (NodeJS)
 Create a New Role 
